@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4ff4bab919.js" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="bhuvan-logo2.png">
+
+<title>BHUVAN</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="bhuvan-logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hide()"></i>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">NRSC</a></li>
+                <li><a href="">Application Sectors</a></li>
+                <li><a href="">Bhuvan Collabrators</a></li>
+                <li><a href="">Search</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">WIKI</a></li>
+                <li><a href="login.html"><button>Login</button></a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="show()"></i>
+           </nav>
+       
+        <div class="title-box">
+            <img src="bhuvan-logo2.png" alt="">
+            <h1>Bhuvan</h1> 
+          <p>Indian Geo Platform Visualisation | OGC Complaint Thematic,Disaster,Ocean Services| Asset Mapping and Inventory Creations <br>
+         Planning and Development | Decision making | Resources Management</p>   
+        <a href="" class="know-btn">View More</a>
+        </div> 
+        
+    </section>
+  <section class="sector">
+    <div class="heading"><h1>Services</h1></div>
+            <div class="cards">
+                
+                <div class="card" id="card1">
+                    <img src="download.png" alt="" >
+                    <h1>Agriculture</h1>
+                    <p>View the agriculture related application and it's resources</p>
+                </div>
+                <div class="card " id="card2">
+                    <img src="E-governance.png" alt="">
+                    <h1>E-governance</h1>
+                    <p>View the E-governance related application and it's resources</p>
+                </div>
+                <div class="card " id="card3">
+                    <img src="Tourism.png" alt="">
+                    <h1>Tourism</h1>
+                    <p>View the Tourism related application and it's resources</p>
+                </div>
+              
+            </div>
+                </section>
+                <section class="planet-container">
+                     <h1>Planet info</h1>
+                    
+                    <div class="planets">
+                       
+                    <div class="planet-cards card1" id="card1">
+                        <img src="venus.jpg" alt="" class="venus">
+                   <div class="heading">
+                    <h1>Venus</h1>
+                    <div class="layer">
+                        <p>Venus is the second planet from the Sun. <br> Venus is a bit smaller than Earth. <br> It's 7,521 miles (12,104 kilometers) across, and Earth is 7,926 miles (12,756 kilometers). <br> On Venus, the Sun would rise in the west and set in the east, because Venus spins backward compared to Earth.</p>
+                    </div>
+                   </div>
+                    </div>
+                    <div class="planet-cards">
+                        <img src="jupiter.jpg" alt="">
+                   <div class="heading">
+                    <h1>Jupiter</h1>
+                   </div>
+                   <div class="layer">
+                    <p>Jupiter is the fifth planet from our Sun and is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium.</p>
+                </div>
+                    </div>
+                    <div class="planet-cards">
+                        <img src="earth.jpg" alt="">
+                  
+                        <div class="heading">
+                    <h1>Earth</h1>
+                   </div>
+                   <div class="layer">
+                    <p>Earth is the third planet from the Sun and the fifth largest planet in the solar system in terms of size and mass. Its near-surface environments are the only places in the universe known to harbour life.</p>
+                </div>
+                </div>
+                    </div>
+                </section>
+                <section class="About">
+                    <h1>OVERVIEW<br></h1>
+                    <p><br>Bhuvan is a web-based utility that allows users to explore geographic content <br> prepared by the Indian Space Research Organization (ISRO). <br></p>
+                   <video src="The UNIVERSE in 4K 60fps (1).mp4" autoplay loop inline controls audio></video>
+                </section>
+                <footer>
+                 <div class="foot-col">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="">Discussion Forum</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Team</a></li>
+                    </ul>
+                    </div>
+                 <div class="foot-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="">Mail:bhuvan@mail.com</a></li>
+                        <li><a href="">Phone:+91xx000000</a></li>
+                        <li><a href="">Hyderabad-500 037, INDIA.</a></li>
+                    </ul>
+                    </div>
+
+                 <div class="foot-col">
+                    <h4>Follow us</h4>
+                    <ul>
+                        <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fbhuvanite">Twitter </a><i class="fa-brands fa-square-twitter" id="twitter"></i></li>
+                        <li><a href="">Linkedin </a><i class="fa-brands fa-instagram" id="instagram"></i><</li>
+                        <li><a href="https://www.youtube.com/@edusat2004">Youtube </a><i class="fa-brands fa-youtube" id="youtube"></i><</li>
+                    </ul>
+                 </div>
+                </footer>
+            
+   <script>
+   var navlinks = document.getElementById("navlinks");
+function show(){
+    navlinks.style.right="0";
+}
+function hide(){
+    navlinks.style.right="-200px";
+}
+
+
+   </script>
+    
+</body>
+</html>
