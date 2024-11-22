@@ -11,7 +11,7 @@
     width: 100%;
     position: relative;
     background-size: cover;
-    background-position:fixed;
+    background-attachment:fixed;
 
 }
 nav{
@@ -246,8 +246,7 @@ margin: auto;
 text-align: center;
 padding-top: 50px;
    background:url("Background.jpg")no-repeat;
-    background-position:fixed;
-    
+    background-attachment:fixed;    
    color: #fff;
 
 }
